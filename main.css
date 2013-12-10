@@ -1,19 +1,15 @@
 html {
   font-size: 12pt;
+  height: 100%;
 }
 
 body {
   margin: 0;
   font-family: Helvetica, Arial;
   color: white;
+  height: 100%;
 }
-p {
-  /*font-size: 1em;*/
-  /*font-size: 12pt;*/
-  /*font-family: Helvetica;*/
-  /*font-size: 12px;*/
-  /*font-size: 50%;*/
-}
+
 
 .logo {
   /*font-size: .7em;*/
@@ -55,4 +51,28 @@ li a:hover {
 .navbar div {
 /*  height: 200px;
   width: 200px;*/
+}
+
+.craigferguson {
+  position: relative;
+}
+
+ul .dropdown {
+  display: none;
+  position: absolute;
+  top: 38px;
+  width: 150px;
+  background-color: steelblue;
+}
+
+.active {
+  display: block !important;
+}
+
+.dropdownelement {
+  /*background-color: steelblue;*/
+  display: block;
+  /*position: absolute;*/
+  /*z-index: 999;*/
+  /*width: 150px;*/
 }
